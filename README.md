@@ -29,7 +29,6 @@ public int playGame() throws IOException {
 
 ```java
 	public int playGame(List<Integer> com) throws IOException {
-		List<Integer> computer = com;
 
 		int strike, ball, count;
 		strike = ball = count = 0;
@@ -66,7 +65,7 @@ public int playGame() throws IOException {
 		return count;
 	}
 ```
-위, 중복이 없는 난수값 3개를 저장한 리스트를 매개변수를 통하여 전달 받고 computer 라는 변수에 저장합니다.
+위, 중복이 없는 난수값 3개를 저장한 리스트를 매개변수를 통하여 전달 받습니다
 <br>
 사용자의 입력을 받아 게임 규칙의 부합하는 숫자로만 이루어진 리스트이 길이가 3 이 될떄까지 반복하여 입력을 받으며, 만약 사용자가 조건에 부합하지 않는 숫자를 입력시 다시 입력을 받습니다.
 <br>
